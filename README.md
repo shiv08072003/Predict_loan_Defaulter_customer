@@ -6,13 +6,7 @@
 
 <br>
 
-**Table of Contents**
-- [Business Understanding](https://github.com/faizns/HCI-vix-project/blob/main/README.md#-business-understanding)
-- [Workflow](https://github.com/faizns/HCI-vix-project/blob/main/README.md#-workflow)
-- [Insight](https://github.com/faizns/HCI-vix-project/blob/main/README.md#-insight)
-- [Modeling and Evaluation](https://github.com/faizns/HCI-vix-project/blob/main/README.md#-modeling-and-evaluation)
-- [Model Simulation using Streamlit](https://github.com/faizns/HCI-vix-project/blob/main/README.md#-model-simulation-using-streamlit)
-<br>
+
 
 
 ## 📂 Business Understanding
