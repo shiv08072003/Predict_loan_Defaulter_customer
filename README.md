@@ -17,50 +17,48 @@
 
 ## 📂 Business Understanding
 ### Problem Statement
-Home Credit Indonesia merupakan perusahaan yang memberikan layanan kredit  yang mudah, cepat, dan terjangkau kepada masyarakat. Salah satu permasalahan yang terjadi pada perusahaan ini adalah adanya nasabah yang gagal dalam pembayaran kredit. Apabila banyak pelanggan yang mengalami masalah ini, maka akan berdampak secara signifikan bagi perusahaan.
+Home Credit Indonesia is a company that provides easy, fast, and affordable credit services to the public. One of the problems that occurs in this company is that there are customers who fail to pay their credit. If many customers experience this problem, it will have a significant impact on the company.
 
-Menurut artikel yang diterbitkan di Harvard Business Review, dinyatakan bahwa "*Non-payment by consumers can set off a chain reaction of bad debts, lower profits, layoffs, and even bankruptcies, ultimately affecting entire industries and even economies.*" 
+According to an article published in the Harvard Business Review, it is stated that "*Non-payment by consumers can set off a chain reaction of bad debts, lower profits, layoffs, and even bankruptcies, ultimately affecting entire industries and even economies.*"
 
-Oleh karena itu, mengidentifikasi nasabah yang memiliki kemungkinan besar mengalami kegagalan dalam membayar kredit penting untuk dilakukan. Hal ini dapat menjadi tindakan preventif bagi perusahaan dan memastikan pelanggan yang mampu melakukan pelunasan tidak ditolak ketika melakukan pengajuan pinjaman.
+Therefore, identifying customers who are likely to fail to pay their credit is important to do. This can be a preventive measure for the company and ensure that customers who are able to make repayments are not rejected when applying for loans.
 
 ### Goals
-- Loss Reduction, mengurangi dampak kerugian yang ditimbulkan oleh "Default Customer" yang memiliki potensi gagal bayar.
-- Memutuskan bahwa pengajuan pinjaman dapat diterima atau ditolak
+- Loss Reduction, reducing the impact of losses caused by "Default Customers" who have the potential to default. - Deciding whether a loan application can be accepted or rejected
   
 ### Objectives
-- Membuat prediktif model untuk memprediksi dan mengklasifikasikan nasabah berpotensi gagal bayar atau tidak
-- Mengidentifikasi karakteristik nasabah yang berpotensi gagal bayar
-<br>
+- Create predictive models to predict and classify customers who have the potential to default or not
+- Identify the characteristics of customers who have the potential to default
 
 
 ## 📂 Workflow
 <p align="center">
     <kbd> <img width="1000" alt="workflow" src="https://github.com/faizns/HCI-vix-project/assets/115857221/8d64b89f-f0d0-4276-9a51-82a1adb0c9a8.jpg"> </kbd> <br>
-    Gambar 1 — Workflow Pembuatan Model
+  Figure 1 — Model Creation Workflow
 </p>
 <br>
 
 ## 📂 Insight
-- Tingkat default kredit nasabah dari dataset mencapai 9%
-- Karakteristik mayoritas nasabah yang cenderung mengalami masalah dalam pembayaran kredit yaitu:
-  - Laki-laki
-  - Kelompok pendidikan rendah, "lower secondary"
-  - Rentang usia 25 - 40 tahun
-  - Lama bekerja 1 - 5 tahun
-  - Tipe kredit "Cash Loan"
+- The default rate of customer credit from the dataset reached 9%
+- The characteristics of the majority of customers who tend to experience problems in credit payments are:
+- Male
+- Low education group, "lower secondary"
+- Age range 25 - 40 years
+- Length of work 1 - 5 years
+- Credit type "Cash Loan"
 <br>
 
 ## 📂 Modeling and Evaluation
-- Split dataset dengan rasio 80% Train : 20% Test
-- Mengatasi data Train yang tidak seimbang menggunakan RandomUnderSampler
-- Scaling data dengan RobustScaler
-- Eksperimen menggunakan beberapa algoritma Logistic Regression, Random Forest, dan XGBoost
-- Best fit model didapatkan menggunakan Logistic Regression dengan hyperparameter tuning, menghasilkan akurasi 87% dan AUC 73%
+- Split dataset with a ratio of 80% Train : 20% Test
+- Overcoming unbalanced Train data using RandomUnderSampler
+- Scaling data with RobustScaler
+- Experiments using several Logistic Regression, Random Forest, and XGBoost algorithms
+- Best fit model obtained using Logistic Regression with hyperparameter tuning, resulting in 87% accuracy and 73% AUC
 
 <br>
 <p align="center">
     <kbd> <img width="800" alt="feats" src="https://github.com/faizns/HCI-vix-project/assets/115857221/a4daeca8-49f8-4c55-8cdd-3f3ad0486f18"> </kbd> <br>
-    Gambar 2 — Feature Importance
+    Figure 2 — Feature Importance
 </p>
 <br>
 
@@ -69,13 +67,13 @@ Oleh karena itu, mengidentifikasi nasabah yang memiliki kemungkinan besar mengal
 
 <p align="center">
     <kbd> > <img width="1000" alt="st1" src="https://github.com/faizns/HCI-vix-project/assets/115857221/d7a67ea8-1d82-4ccc-884f-d99e57c335b8"></kbd> <br>
-    Gambar 3 — Screenshot Part 1
+    Figure 3 — Screenshot Part 1
 </p>
 
 <br>
 <p align="center">
     <kbd> >  <img width="1000" alt="st2" src="https://github.com/faizns/HCI-vix-project/assets/115857221/045e4d1f-2b64-4e65-9018-8b6e8142c7cb"> </kbd> <br>
-    Gambar 4 — Screenshot Part 2
+    Figure 4 — Screenshot Part 2
 </p>
 <br>
 
