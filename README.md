@@ -78,6 +78,6 @@ Therefore, identifying customers who are likely to fail to pay their credit is i
 <br>
 
 ## 📂 Recommendations
-- Mempertimbangkan untuk membuat Credit Scorecard, menggunakan Information Value dan Feature Engineering menggunakan Weight of Evidence
-- Melakukan analisis kredit yang lebih mendalam 
-- Meningkatkan seleksi calon peminjam dengan memperketat persyaratan dan mengumpulkan informasi yang lebih lengkap tentang calon peminjam
+- Consider creating a Credit Scorecard, using Information Value and Feature Engineering using Weight of Evidence
+- Conduct a more in-depth credit analysis
+- Improve the selection of prospective borrowers by tightening requirements and collecting more complete information about prospective borrowers
